@@ -69,7 +69,7 @@ public class FacebookCrawler {
         final HtmlTextInput textField = form.getInputByName("email");
         textField.setValueAttribute("viveks3th@gmail.com");
         final HtmlPasswordInput textField2 = form.getInputByName("pass");
-        textField2.setValueAttribute("M@nuS#th=17");
+        textField2.setValueAttribute("PASS HERE");
         final HtmlPage loginResponsePage = button.click();
 
         final HtmlPage rutgersGroupPage = webClient.getPage("http://m.facebook.com/groups/"+groupID);
